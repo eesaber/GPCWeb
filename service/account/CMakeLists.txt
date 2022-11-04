@@ -1,0 +1,10 @@
+project("account server" 1.0.0 CXX)
+
+set(CMAKE_OSX_ARCHITECTURES "arm64")
+set(CMAKE_CXX_COMPILER /usr/bin/clang++)
+set(CMAKE_CXX_STANDARD 20 CACHE STRING "")
+set(CMAKE_CXX_STANDARD_REQUIRED ON CACHE BOOL "")
+set(CMAKE_CXX_EXTENSIONS OFF CACHE BOOL "")
+
+
+include(cmake)
